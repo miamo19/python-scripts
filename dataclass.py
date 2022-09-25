@@ -7,9 +7,10 @@ class User:
         self.first_name = first_name
         self.last_name = last_name
 '''
-#This is the simplify __init__() method with the decorator
+
 @dataclass
 class User:
+    # This is the simplify __init__() method written in this form blc of the decorator (@dataclass)
     first_name: str
     last_name : str
 
@@ -20,7 +21,7 @@ print("--====---====----=======-----=====---====")
 #Defaut values
 @dataclass
 class Users:
-    #here is the instance variable from the __init__() method
+    #here we have two instance variables one with an initial value and the other just declare
     first_name: str
     last_name : str = "vince"
 
