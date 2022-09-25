@@ -1,3 +1,4 @@
+#Example of a function to be used as a decorator
 def f(func):
     def wrapper(*args, **kwargs):
         print("Started")
@@ -10,6 +11,7 @@ def f(func):
 @f
 def f1(a):
     print(a,"Is Better")
+    print("+++A decorated function ++++")
 f1('hibrahim')
 
 print("------------------------")
