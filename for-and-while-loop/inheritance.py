@@ -1,14 +1,14 @@
-class A:
+class Apple:
     def __init__(self):
-        print("All is fine A")
+        print("All is fine Apple")
     def features(self):
         print("this feature is working")
     def features1(self):
         print("this feature1 is working")
 
-class B:
+class Bitter:
     def __init__(self):
-        print("All is Good  for B")
+        print("All is Good  for Bitter")
 
     def features2(self):
         print("this feature2 is working")
@@ -16,17 +16,17 @@ class B:
     def features3(self):
         print("this feature3 is working")
 
-class C(A,B):
+class Fruit(Apple, Bitter):
     def __init__(self):
         super().__init__()
-        print("All is Good  for C")
+        print("All is Good  for Fruit")
 
     def features1(self):
         super().__init__()
-        print("this feature2 is working C")
+        print("this feature2 is working Fruit")
 
     def features4(self):
         print("this feature3 is working")
-i=C()
+i=Fruit()
 print(i)
 print(i.features2())
