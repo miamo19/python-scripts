@@ -3,7 +3,7 @@ class Apple:
         print("All is fine Apple")
     def features(self):
         print("this feature is working")
-    def features1(self):
+    def features0(self):
         print("this feature1 is working")
 
 class Bitter:
@@ -21,7 +21,7 @@ class Fruit(Apple, Bitter):
         super().__init__()
         print("All is Good  for Fruit")
 
-    def features1(self):
+    def features0(self):
         super().__init__()
         print("this feature2 is working Fruit")
 
