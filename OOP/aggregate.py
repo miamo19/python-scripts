@@ -19,3 +19,6 @@ class Book:
 chapter1 = Chapter('Genuis love', 'part1')
 book1 = Book('revence', 512, chapter1)
 book1.result()
+
+print('---------------')
+chapter1.chap_org
