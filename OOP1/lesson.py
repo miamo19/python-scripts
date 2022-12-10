@@ -2,9 +2,9 @@ class Student:
     def check_if_pass(self, mark):
         self.m= mark
         if self.m >= 50:
-            return "Success"
+            return True
         else:
-            return "Fail"
+            return False
         
 s1 = Student()
 
