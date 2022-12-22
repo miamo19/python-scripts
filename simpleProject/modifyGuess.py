@@ -32,11 +32,9 @@ def computer_guess(x):
                 exit()
             n+=1
         else:
-            print("you Won, correct number")
+            print("you Won!! Correct Number")
             exit()
 
-    print("you Won, correct number")
-
-
+    print("you Won!! Correct Number")
 
 computer_guess(10)
