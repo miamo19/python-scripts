@@ -6,8 +6,9 @@ class Student:
         self.chem = b
         self.bio = c
 
-    def avg(self):
+    def average(self):
         return (self.chem + self.bio + self.math)/3
+    
     @classmethod
     def info(cls):
         return "you are from "+ cls.town + " schooling at "+ cls.school
