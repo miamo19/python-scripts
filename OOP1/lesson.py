@@ -1,7 +1,7 @@
 class Student:
     def check_if_pass(self, mark):
-        self.m= mark
-        if self.m >= 50:
+        self.mark= mark
+        if self.mark >= 50:
             return True
         else:
             return False
@@ -9,7 +9,7 @@ class Student:
 s1 = Student()
 
 s1.check_if_pass(16) 
-if s1.m >=45:
+if s1.mark >=45:
     print ("You pass")
 else:
     print("You Fail")
