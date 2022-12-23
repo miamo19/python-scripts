@@ -14,7 +14,7 @@ class Student:
         return "you are from "+ cls.town + " schooling at "+ cls.school
 
 s1 = Student(5, 6, 12)
-print(Student.avg(s1))
-print(s1.avg())
+print(Student.average(s1))
+print(s1.average())
 
 #print(Student.info())
