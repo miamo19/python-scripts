@@ -6,10 +6,10 @@ class Student:
         else:
             return False
         
-s1 = Student()
+student1 = Student()
 
-s1.check_if_pass(16) 
-if s1.mark >=45:
+student1.check_if_pass(16) 
+if student1.mark >=45:
     print ("You pass")
 else:
     print("You Fail")
