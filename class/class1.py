@@ -1,3 +1,4 @@
+#This class check if an object has pass or fail
 class Student:
     def check_pass_fail(self):
         if self.marks>=45:
