@@ -8,6 +8,7 @@ def f(func):
         return v
 
     return wrapper
+
 @f
 def f1(a):
     print(a,"Is Better")
@@ -15,6 +16,7 @@ def f1(a):
 f1('hibrahim')
 
 print("------------------------")
+
 @f
 def f2(x,y):
     print("the sum of: ", x , " and ", y ," = ", x+y)
@@ -26,4 +28,5 @@ print("------------------------")
 @f
 def add(x, y):
     return x+y
+
 print(add(4,5))
