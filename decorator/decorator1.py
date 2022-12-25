@@ -5,6 +5,7 @@ def smart_div(func):
             numb1,numb2 = numb2,numb1
         return func(numb1, numb2)
     return inner
+
 @smart_div
 def div(numb1, numb2):
     print(numb1/numb2)
@@ -29,6 +30,7 @@ print("---------------------")
 @f
 def f2():
     print("We are the chosen generation")
+    
 f2()
 
 #with decorators, we can add extract features in an existing function
