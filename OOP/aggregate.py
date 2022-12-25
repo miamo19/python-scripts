@@ -9,11 +9,11 @@ class Chapter:
 
 
 class Book:
-    def __init__(self, name, pageNum ,titles):
+    def __init__(self, name, pageNum ,title):
         self.name = name
         self.pageName = pageNum
-        self.titles = titles
-
+        self.titles = title
+        
     def result(self):
         print(self.titles.chap_org())
 
