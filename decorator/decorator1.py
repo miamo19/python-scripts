@@ -1,13 +1,13 @@
 #decorator function
 def smart_div(func):
-    def inner(a, b):
-        if a<b:
-            a,b = b,a
-        return func(a,b)
+    def inner(numb1, numb2):
+        if numb1<numb2:
+            numb1,numb2 = numb2,numb1
+        return func(numb1, numb2)
     return inner
 @smart_div
-def div(a, b):
-    print(a/b)
+def div(numb1, numb2):
+    print(numb1/numb2)
 div(2,4)
 
 print("---------------")
