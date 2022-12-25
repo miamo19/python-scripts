@@ -21,5 +21,5 @@ class Student:
 s1 = Student('miami',27)
 s2 = Student('nadia', 22)
 
-#print(s1.show())
+print(s1.show())
 print(s2.show())
