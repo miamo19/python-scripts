@@ -2,6 +2,7 @@ class Chapter:
     def __init__(self, title, subtitle):
         self.title = title
         self.subtitle = subtitle
+        self.name = 'Veroble'
 
     def chap_org(self):
         print("The title: ",self.title, "and its subtitle: ", self.subtitle) 
