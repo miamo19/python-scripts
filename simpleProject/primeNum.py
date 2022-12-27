@@ -1,4 +1,4 @@
-#program check if the  number enter is a primw number or not
+#program to check if the  number enter is a prime number or not
 def prime():
     #take input from user for the checking if number is prime
     num = int(input("Enter the Number: "))
