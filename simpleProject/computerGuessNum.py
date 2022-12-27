@@ -4,7 +4,7 @@ import random
 def computer_guess(x):
     high =x
     low = 1
-    feedback = " "
+    feedback = ""
 
     while feedback != "c":
         if high!=low:
