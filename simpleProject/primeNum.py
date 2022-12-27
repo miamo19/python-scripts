@@ -1,6 +1,6 @@
 #program check if the  number enter is a primw number or not
 def prime():
-    #take input from user for the checking
+    #take input from user for the checking if number is prime
     num = int(input("Enter the Number: "))
     flag = False
     if num>1:
