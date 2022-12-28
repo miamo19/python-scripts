@@ -1,6 +1,5 @@
 import time
 
-
 def timer(func):
     def wrapper():
         before = time.time()
