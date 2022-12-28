@@ -9,7 +9,7 @@ def mult(lst1):
     return prod
 print (mult([4,3,2,5]))
 
-print("------------------")
+print("--------@----------")
 
 #Lambda function performing the same task as the function above
 list1 = [4, 3, 2, 5]
