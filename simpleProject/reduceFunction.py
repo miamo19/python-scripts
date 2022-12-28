@@ -15,17 +15,18 @@ print("-------------@--------------")
 #check for filter
 c = filter(lambda i:i%2==0, x)
 print(list(c))
-print("---------------------------")
+print("-------------@--------------")
 
 #Filter function uses conditional statment to iterate over the list
 d = filter(lambda i:True if i>=5 else False , x)
 print(list(d))
 
-print("-----------#----------------")
+print("-----------@---------------")
+
         #reduce fumction perform operation on elements in a list
 #The below reduce function add all the elements in a list
 z = reduce(lambda i,j:i+j, y)
 print(z)
-print("-----------#----------------")
+print("-----------@----------------")
 m = reduce(lambda i,j:i-j, y)
 print(m)
