@@ -7,13 +7,12 @@ def prime():
         #check for factor
         for i in range(2,num):
             if (num%i==0):
-                #if factor is found: set flag to be True
+                #if factor is found: set flag to be True and break out of the loop 
                 flag =True
-                #break out of the loop
                 break
     else:
         flag=True
-    #check if flag is True or not
+  
     if flag==True:
         print("Number is not Prime")
     else:
