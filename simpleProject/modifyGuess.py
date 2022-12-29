@@ -1,7 +1,6 @@
 # computer will guess from a random values provider the user know the correct number
 import random
 
-
 def computer_guess(x):
     high = x
     low = 1
