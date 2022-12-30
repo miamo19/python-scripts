@@ -5,7 +5,7 @@ while i<8:
         break
     print(i)
     i+=1
-print("------------------------------")
+print("-------------@-----------------")
 
 #continue keyword with while loop
 n=0
@@ -15,7 +15,7 @@ while n<8:
     if a==5 or a==6:
         continue
     print(a)
-print("---------------------")
+print("--------@-------------")
 
 #break keyword with for loop
 for v in range(8):
@@ -23,7 +23,7 @@ for v in range(8):
         break
     print(v)
 
-print("---------------------")
+print("--------------@-----------")
 
 #continue keyword with for loop
 for x in range(8):
