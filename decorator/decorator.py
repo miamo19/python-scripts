@@ -1,5 +1,5 @@
 #Example of a function to be used as a decorator
-def f(func):
+def decorator(func):
     def wrapper(*args, **kwargs):
         print("Started")
 
@@ -9,7 +9,7 @@ def f(func):
 
     return wrapper
 
-@f
+@decorator
 def f1(a):
     print(a,"Is Better")
     print("+++A decorated function ++++")
@@ -17,7 +17,7 @@ f1('hibrahim')
 
 print("------------------------")
 
-@f
+@decorator
 def f2(x,y):
     print("the sum of: ", x , " and ", y ," = ", x+y)
 
@@ -25,7 +25,7 @@ f2(2, 8)
 
 print("------------------------")
 
-@f
+@decorator
 def add(x, y):
     return x+y
 
