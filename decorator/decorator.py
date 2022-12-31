@@ -3,9 +3,9 @@ def decorator(func):
     def wrapper(*args, **kwargs):
         print("Started")
 
-        v = func(*args, **kwargs)
+        arg = func(*args, **kwargs)
         print("Stopped")
-        return v
+        return arg
 
     return wrapper
 
