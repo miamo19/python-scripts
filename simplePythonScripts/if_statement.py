@@ -1,4 +1,4 @@
-    #User enter an interger value
+#User enter an interger value
 num= int(input("Enter number : \n"))
     #condition check if number enterred id zero or not
 if num != 0:
