@@ -9,7 +9,7 @@ def smart_div(func):
 def div(x, y):
     print(x/y)
 
-div(2,4)
+div(14,3)
 
 @smart_div
 def div1(q, p):
