@@ -1,3 +1,4 @@
+#A class with properties (Attributes) of chapters of a Book
 class Chapter:
     def __init__(self, title, subtitle):
         self.title = title
