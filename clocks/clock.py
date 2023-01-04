@@ -6,6 +6,7 @@ from time import  strftime
 root = Tk()
 root.title("Clock")
 
+#function for stating the time
 def time():
     string = strftime('%H:%M:%s %p')
     label.config(text=string)
