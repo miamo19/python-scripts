@@ -4,7 +4,7 @@ def timer(func):
     def wrapper():
         before = time.time()
         func()
-        print("function took. ", time.time() - before, "second")
+        print("function took. ", time.time() - before, "Second")
 
     return  wrapper
 
