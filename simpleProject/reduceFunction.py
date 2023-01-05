@@ -1,11 +1,11 @@
 from functools import reduce
 
-x = [2, 3, 5, 4, 6, 7]
+x = [2, 3, 5, 4, 6, 7, 8]
 a = map(lambda x:x%2, x)
 print(list(a))
 
 print("------------@---------------")
-y = [1, 2, 4, 7, 3, 5]
+y = [1, 2, 4, 7, 3, 5, 4]
 
 b = map(lambda i, j: x + y, x,y)
 print(b)
