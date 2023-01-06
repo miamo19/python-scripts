@@ -30,5 +30,6 @@ print("-----------@---------------")
 z = reduce(lambda i,j:i+j, y)
 print(z)
 print("-----------@----------------")
+
 m = reduce(lambda i,j:i-j, y)
 print(m)
