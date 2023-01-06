@@ -16,6 +16,7 @@ class Bitter:
     def features3(self):
         print("this feature3 is working")
 
+#Multiple inheritance
 class Fruit(Apple, Bitter):
     def __init__(self):
         super().__init__()
