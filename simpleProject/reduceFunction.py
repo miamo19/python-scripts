@@ -10,11 +10,13 @@ y = [1, 2, 4, 7, 3, 5, 4]
 b = map(lambda i, j: x + y, x,y)
 print(b)
 print(list(b))
+
 print("-------------@--------------")
 
 #check for filter
 c = filter(lambda i:i%2==0, x)
 print(list(c))
+
 print("-------------@--------------")
 
 #Filter function uses conditional statment to iterate over the list
