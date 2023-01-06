@@ -9,7 +9,7 @@ print("-------------@-----------------")
 
 #continue keyword with while loop
 n=0
-while n<8:
+while n<10:
     a =n
     n+=1
     if a==5 or a==6:
