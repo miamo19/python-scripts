@@ -35,7 +35,7 @@ print("--====---====----=======-----=====---====")
 from typing import ClassVar
 @dataclass
 class Use:
-    c:ClassVar[int]   #class variable
+    c:ClassVar[int]    #class variable
     first_name: str    #instance variable from __init__()
     last_name : str    #instance variable from __init__()
 
