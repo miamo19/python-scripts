@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-# this example is complex with the __init__() method
+# this example is complex with the __init__() method and arguments
 '''
 class User:
     def __init__(self, first_name: str, last_name:str ):
