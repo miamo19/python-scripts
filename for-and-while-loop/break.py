@@ -1,13 +1,13 @@
-#break keyword wih while loop
+#break keyword goes with while loop
 i=0
-while i<8:
+while i<10:
     if i==5:
         break
     print(i)
     i+=1
 print("-------------@-----------------")
 
-#continue keyword with while loop
+#continue keyword also goes with while loop
 n=0
 while n<10:
     a =n
@@ -17,7 +17,7 @@ while n<10:
     print(a)
 print("--------@-------------")
 
-#break keyword with for loop
+#break keyword also goes with for loop
 for v in range(8):
     if v==5:
         break
@@ -25,7 +25,7 @@ for v in range(8):
 
 print("--------------@-----------")
 
-#continue keyword with for loop
+#continue keyword also goes with for loop
 for x in range(8):
     if x ==3 or x==6:
         continue
