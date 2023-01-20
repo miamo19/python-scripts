@@ -30,7 +30,7 @@ for x in range(8):
     if x ==3 or x==6:
         continue
     print(x)
-print("End")
+print("END")
 
 
 
