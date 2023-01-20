@@ -22,7 +22,6 @@ for v in range(8):
     if v==5:
         break
     print(v)
-
 print("--------------@-----------")
 
 #continue keyword also goes with for loop
