@@ -37,7 +37,6 @@ class Bank(User):
 
 u = Bank('lucy', 25, 'F')
 u.deposit(15000)
-u.deposit(15000)
-u.deposit(45000)
+
 u.withdraw(23000)
 u.viewBalance()
