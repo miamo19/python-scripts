@@ -61,7 +61,7 @@ class Utilisateurs:
     num:ClassVar[int] = 2
     first_name: str
     last_name: str
-
+    #A Method under the class Utilisateurs can be written as below
     def __post_init__(self):
         self.full_name = f"{self.first_name} {self.last_name}"
 patrick3 = Utilisateurs("patrick", "smith")
