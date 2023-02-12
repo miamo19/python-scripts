@@ -12,24 +12,24 @@ last_name = "HYACINTH"
 i = int(y)
 print(i)      
 
-#converting an interger x to a float and storing the values in another variable j
+#converting an interger x to a float and storing its value in another variable j
 j = float(x)
-print(j)      #print the value of j and get the different between j and x
+print(j)     
 
-   #multiplication of variable x and y and print the result
+#multiplication of variable x and y and print the result
 print("{0} * {1} = {2}".format(x,y,x*y))
 
-    #capitilize the content of the variable second_name
+#capitilize the content of the variable second_name
 print(second_name.capitalize())
 
-    #variable first_name is printed in uppercase letter
+#variable first_name is printed in uppercase letter
 print(first_name.upper())
 
-    #variable last_name is printed in lowercase letter
+#variable last_name is printed in lowercase letter
 print(last_name.lower())
 
-    #check if variable first_name is uppercase and answer is in boolean
+#check if variable first_name is uppercase and answer is in boolean
 print(first_name.isupper())
 
-    #print a statement with multiple datatype
-print("Mr. %s are you %d years old? " %(first_name,x), "\n\tWhy ask?")
+#print a statement with multiple datatype
+print("Mr. %s are you %d years old? " %(first_name,x), "\n\t Why ask?")
