@@ -1,4 +1,4 @@
-    #variables
+#variables
 x = 15                        #interger type
 
 y = 5.3                      #float type
@@ -8,11 +8,11 @@ first_name = "Miami"         #string type
 second_name = "miamo yoaleu"
 last_name = "HYACINTH"
 
-   #converting a float y to interger and storing the values in another variable i
+#converting a float y to interger and storing its value in another variable i
 i = int(y)
-print(i)      #print the value of i and get the different between i and y
+print(i)      
 
-    #converting an interger x to a float and storing the values in another variable j
+#converting an interger x to a float and storing the values in another variable j
 j = float(x)
 print(j)      #print the value of j and get the different between j and x
 
