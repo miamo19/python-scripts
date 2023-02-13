@@ -8,7 +8,7 @@ student('Miami', 25, 70, 55, 63)
 
 print("------------------------------")
 
-print(student('mamo',20,58,45,96))
+print(student('Mamo',20,58,45,96))
 print("------------------------------")
 
 #function with parameter and double ** on sales
