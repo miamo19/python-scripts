@@ -1,11 +1,11 @@
 #variables
-x = 15                        #interger type
+x = 15                         #interger type
 
-y = 5.3                      #float type
+y = 5.3                        #float type
 z = 3.0
 
-first_name = "Miami"         #string type
-second_name = "miamo yoaleu"
+first_name = "Miami"           #string type
+second_name = "yve chalton"
 last_name = "HYACINTH"
 
 #converting a float y to interger and storing its value in another variable i
