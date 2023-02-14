@@ -1,5 +1,5 @@
 #computer will guess from a random values provider the user know the correct number
-#For this we have to import a module random first
+#For this we have to import a module "random" first
 import random
 
 def computer_guess(x):
