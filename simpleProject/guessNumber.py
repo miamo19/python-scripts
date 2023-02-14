@@ -1,5 +1,7 @@
-import random
 # This  function to guess number out of a range for a limited trial of 3
+#For this, we have to import the module "random" first
+import random
+
 def guess(x):
     ranNum = random.randint(1,x)
     guess, n= 0, 0
