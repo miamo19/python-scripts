@@ -26,7 +26,5 @@ def guess(x):
         else:
             print("Number of trial exhauted. You fail!!!")
             exit()
-
     print("You won")
-
 guess(10)
