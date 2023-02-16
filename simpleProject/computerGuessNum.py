@@ -10,7 +10,6 @@ def computer_guess(x):
     while feedback != "c":
         if high!=low:
             guess = random.randint(low, high)
-
         else:
             guess = low
 
