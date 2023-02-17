@@ -32,7 +32,7 @@ print("-------------------------------")
 print("separator for dictionary in json fomat",json.dumps(x, separators=("; ","=")))
 print("-------------------------------")
 
-#creating a JSON file  storing data in
+#creating a JSON file storing data
 with open('demo.jeson', 'w') as fh:
     fh.write(json.dumps(a))
 fh.close()
