@@ -1,11 +1,11 @@
 # parent class (Super class)
 class User:
-    def __init__(self, name, age, gender):
+    def __init__(self, name, age, gender):   #contructor
         self.name = name
         self.age = age
         self.gender = gender
 
-    def show_detail(self):
+    def show_detail(self):                   #method
         print("Show Personal details: \n")
         print("Name: ", self.name)
         print("Age: ", self.age)
