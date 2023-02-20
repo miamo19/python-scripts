@@ -8,7 +8,8 @@ class Student:
 
     def average(self):
         return (self.chem + self.bio + self.math)/3
-    
+ 
+#An example of a Class Method    
     @classmethod
     def info(cls):
         return "you are from "+ cls.town + " schooling at "+ cls.school
