@@ -1,4 +1,4 @@
-#decorator function
+#Decorator function contruction
 def smart_div(func):
     def inner(numb1, numb2):
         if numb1<numb2:
@@ -6,6 +6,7 @@ def smart_div(func):
         return func(numb1, numb2)
     return inner
 
+#Decorator function used
 @smart_div
 def div(numb1, numb2):
     print(numb1/numb2)
