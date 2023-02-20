@@ -1,4 +1,4 @@
-
+#This script show an example of the concept of Aggregation between the class Chapter and Book 
 class Chapter:
     def __init__(self, title, subtitle):
         self.title = title
