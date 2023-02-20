@@ -1,3 +1,4 @@
+#A simple class that check for passed and failed
 class Student:
     def check_if_pass(self, mark):
         self.mark= mark
