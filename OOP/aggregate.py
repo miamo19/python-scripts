@@ -1,4 +1,4 @@
-#A class with properties (Attributes) of chapters of a Book
+
 class Chapter:
     def __init__(self, title, subtitle):
         self.title = title
@@ -8,7 +8,7 @@ class Chapter:
     def chap_org(self):
         print("The title: ",self.title, "and its subtitle: ", self.subtitle) 
 
-#class Book with Properties name, pageNum, titles
+
 class Book:
     def __init__(self, name, pageNum ,title):
         self.name = name
