@@ -2,8 +2,8 @@
 #For this we have to import a module "random" first
 import random
 
-def computer_guess(x):
-    high =x
+def computer_guess(max_num):
+    high =max_num
     low = 1
     feedback = ""
 
