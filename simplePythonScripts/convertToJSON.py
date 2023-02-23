@@ -9,7 +9,7 @@ e = (7, 3, 5, 6, 2)
 #a set cannot be converted into json
 f = {2,5, 3, 7, 6}
 
-x = {'name':'Miano', 'age':25, 'gender':'F', 'Nationality':'Cameroon'}
+x = {'name':'Miano', 'age':25, 'gender':'F', 'Nationality':'Cameroon', 'continent': 'Africa'}
 
 print(json.dumps(x))
 print("-------------------------------")
