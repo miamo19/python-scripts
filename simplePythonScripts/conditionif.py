@@ -3,6 +3,7 @@ print("==========")
 
 #You have to take the marks of the student as input from the user.
 # Then assign the grades based on marks obtained by the students.
+
 def gradeAssign(marks):
     assert marks >= 0 and marks <= 100
 
@@ -30,6 +31,7 @@ print("======================================================")
 
 #Python Code To Check If The Year Is A Leap Year
 #The year 2000 was a leap year, for example, but the years 1700, 1800, and 1900 were not
+
 def checkYear(year):
     if (year % 4 == 0) and (year % 100 != 0) or (year % 400 == 0):
         print(year, ' is a leap year')
