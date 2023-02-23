@@ -23,7 +23,7 @@ def gradeAssign(marks):
 def main():
     marks = float(input('Enter your marks: '))
     print("Marks: ", marks, "\nGrade: ", gradeAssign(marks))
-
+    
 main()
 
 print("======================================================")
@@ -40,7 +40,6 @@ def checkYear(year):
 def main():
     year = int(input('Enter the number of rows: '))
     checkYear(year)
-
 
 main()
 
