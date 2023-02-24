@@ -13,10 +13,11 @@ def computer_guess(max_num):
         else:
             guess = low
 
-        feedback = input(f"Is {guess} too high (h), or too low (l) or correct (c)?")
+        feedback = input(f"Is {guess} too high (h), or too low (l) or correct (c)? ")
         if feedback == 'h':
             high = guess-1
         elif feedback == 'l':
             low = guess+1
+            
     print("you Won! correct guess")
 computer_guess(10)
