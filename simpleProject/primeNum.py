@@ -7,7 +7,7 @@ def prime():
         #check for factor
         for i in range(2,num):
             if (num%i==0):
-                #if factor is found: set flag to be True and break out of the loop 
+                #If the factor is found: set flag to be True and break out of the loop 
                 flag =True
                 break
     else:
