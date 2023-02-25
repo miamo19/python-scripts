@@ -7,9 +7,9 @@ print(list(a))
 print("------------@---------------")
 y = [1, 2, 4, 7, 3, 5, 4]
 
-b = map(lambda i, j: x + y, x,y)
-print(b)
-print(list(b))
+map_list = map(lambda i, j: x + y, x,y)
+print(map_list)
+print(list(map_list))
 
 print("-------------@--------------")
 
