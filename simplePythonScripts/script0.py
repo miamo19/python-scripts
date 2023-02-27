@@ -1,3 +1,4 @@
+#Finding the max Number
 x = float(input("Enter first Number: "))
 y = float(input("Enter second Number: "))
 z = float(input("Enter third Number: "))
