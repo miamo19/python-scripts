@@ -2,11 +2,10 @@
 
 from tkinter import  *
 root = Tk()
-root.geometry("500x300")
+root.geometry("500x250")
 
 def getvals():
     print("Accepted")
-
 
 #Heading
 Label(root, text="Python Registration Form", font="ar 15 bold").grid(row=0, column=3)
