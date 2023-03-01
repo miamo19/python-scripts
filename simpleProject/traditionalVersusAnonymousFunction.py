@@ -2,8 +2,8 @@ import math
 from functools import reduce
 
 #calculating area of a circle with traditional function
-def area(r):
-    return math.pi * (r**2)
+def area(radius):
+    return math.pi * (radius**2)
 
 radii = [2, 5, 7.1, .3, 10]
 areas = []
