@@ -15,13 +15,13 @@ print(areas)
 print("--------------------------")
 
 #finding the area of the circle using map function take just one line of code
-area1 = list(map(area, radii))
+area1 = list(map(lambda radii:radii**2*pi, radii))
 print(area1)
 
 
 print("--------------------------")
 #using map function dividing all the areas of the circle by 2
-mapList = list(map(lambda x :x/2, areas))
+mapList = list(map(lambda area :area/2, areas))
 print(mapList)
 print("--------------------------")
 
