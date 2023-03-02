@@ -1,11 +1,11 @@
 from functools import reduce
 
 #traditional function script
-def mult(lst1):
-    prod = lst1[0]
-    for i in range(1,len(lst1)):
+def mult(list1):
+    prod = list1[0]
+    for i in range(1,len(list1)):
         print(i)
-        prod *=lst1[i]
+        prod *=list1[i]
     return prod
 print (mult([4,3,2,5]))
 
