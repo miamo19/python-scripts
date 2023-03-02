@@ -1,6 +1,6 @@
 #program to check if the  number enter is a prime number or not
 def prime():
-    #take input from user for the checking if number is prime
+    #Take input value from user to check if value is prime number
     num = int(input("Enter the Number: "))
     flag = False
     if num>1:
@@ -14,8 +14,8 @@ def prime():
         flag=True
   
     if flag==True:
-        print("Number is not a Prime Number")
+        print("value is not a Prime Number")
     else:
-        print("Number is a prime Number")
+        print("value is a prime Number")
 
 prime()
