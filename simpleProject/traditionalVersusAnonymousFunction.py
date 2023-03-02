@@ -31,6 +31,6 @@ print(addArea)
 
 print("--------------------------")
 
-#lambda Function ta
-lam = (lambda x,y:x)
+#lambda Function that multiplies two variables
+lam = (lambda numb_1,numb_2: numb_1*numb_2)
 print(lam(5,5))
