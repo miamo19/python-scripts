@@ -26,7 +26,7 @@ print(mapList)
 print("--------------------------")
 
 #using reduce function add all the areas in the list
-addArea = reduce(lambda x,y:x+y, areas)
+addArea = reduce(lambda value_1,value_2: value_1+value_2, areas)
 print(addArea)
 
 print("--------------------------")
