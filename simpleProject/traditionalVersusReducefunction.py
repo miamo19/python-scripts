@@ -9,8 +9,8 @@ def mult(list1):
     return prod
 print (mult([4,3,2,5]))
 
-print("--------@----------")
+print("------------------")
 
-#Lambda function performing the same task as the function above
+#Lambda function performing the same task as the function above (Traditional function)
 list1 = [4, 3, 2, 5]
 print(reduce(lambda value_1,value_2: value_1*value_2, list1))
