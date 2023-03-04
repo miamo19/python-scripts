@@ -10,7 +10,6 @@ file1 = open('demo2.txt', 'r')
 print(file1.read())
 file1.close()
 
-
 #The above code for opening a file can be writen as below👇👇👇
 """
 with open("demo2.txt", "w") as file:
