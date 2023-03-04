@@ -5,9 +5,11 @@ while i<10:
         break
     print(i)
     i+=1
+    
 print("-------------@-----------------")
 
 #continue keyword also goes with while loop
+
 n=0
 while n<10:
     a =n
