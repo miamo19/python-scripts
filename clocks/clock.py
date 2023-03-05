@@ -1,3 +1,4 @@
+#import from tkinter
 from tkinter import *
 from tkinter.ttk import *
 from time import  strftime
