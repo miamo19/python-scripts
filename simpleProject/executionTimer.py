@@ -7,7 +7,7 @@ def timer(func):
         print("function took. ", time.time() - before, "Second")
     return  wrapper
 
-#decorator
+#decorator timer
 @timer
 def run():
     time.sleep(1)
