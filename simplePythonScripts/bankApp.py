@@ -1,4 +1,4 @@
-# parent class (SuperClass)
+# The Parent Class (SuperClass)
 class User:
     def __init__(self, name, age, gender):   #contructor
         self.name = name
@@ -11,7 +11,7 @@ class User:
         print("Age: ", self.age)
         print("Gender: ", self.gender)
 
-#This class child inherite from the parent class User
+#This Class Child inherite from the Parent Class User
 class Bank(User):
     def __init__(self, name, age, gender):
         super().__init__(name, age, gender)
