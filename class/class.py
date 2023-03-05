@@ -1,9 +1,9 @@
 class Rectangle:
-    def __init__(self, height, width):  #the special __init__ method (called contructor in java c++ etc)
+    def __init__(self, height, width):  #the special __init__ method (called Constructor in Java C++ etc)
         self.height = height
         self.width = width
-
-# the __init__ method is initialize when ever a class object is call
+        
+# Instanciation (object of the Class Rectangle are created)
 rect1 = Rectangle(20, 12)
 rect2 = Rectangle(12, 9)
 print(rect1.height*rect1.width)
