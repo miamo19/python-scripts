@@ -1,4 +1,5 @@
-#variables
+#variables                      dataType
+
 x = 15                         #interger type
 
 y = 5.3                        #float type
