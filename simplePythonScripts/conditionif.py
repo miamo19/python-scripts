@@ -1,6 +1,5 @@
 print("Grade List")
-print("==========")
-
+print("======================================================")
 #You have to take the marks of the student as input from the user.
 # Then assign the grades based on marks obtained by the students.
 
@@ -22,7 +21,7 @@ def gradeAssign(marks):
 
 
 def main():
-    marks = float(input('Enter your marks: '))
+    marks = float(input('Enter your mark: '))
     print("Marks: ", marks, "\nGrade: ", gradeAssign(marks))
     
 main()
@@ -47,7 +46,7 @@ main()
 
 print("======================================================")
 print("Find the maximum Number")
-print("==========")
+print("======================================================")
 
 
 def FindMaximum(n1, n2, n3):
