@@ -33,9 +33,9 @@ print("separator for dictionary in json fomat",json.dumps(x, separators=("; ","=
 print("-------------------------------")
 
 #creating a JSON file storing data
-with open('demo.jeson', 'w') as fh:
-    fh.write(json.dumps(a))
-fh.close()
+with open('demo.jeson', 'w') as file:
+    file.write(json.dumps(a))
+
 
 #Opening JSON file in Read mode and read from it
 fh =open('demo.jeson', 'r')
