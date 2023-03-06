@@ -45,7 +45,8 @@ patrick1 = Use("Patrick", "Smith")
 print(patrick1.__dict__)
 
 print("--====---====----=======-----=====---====")
-#if you want to give a default value to class variable (ClassVar)
+
+#The class class variable (ClassVar) has a default value 
 @dataclass
 class Utilisateur:
     name: ClassVar[str]= 'vince'
@@ -56,7 +57,8 @@ patrick2 = Utilisateur("Patrick")
 print(repr(patrick2))
 
 print("--====---====----=======-----=====---====")
-#if there are action you want to execute automatically after the __init__()
+
+#if there are action (method) you want to execute automatically after the __init__()
 @dataclass
 class Utilisateurs:
     num:ClassVar[int] = 2
