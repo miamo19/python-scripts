@@ -11,7 +11,7 @@ class User:
         print("Age: ", self.age)
         print("Gender: ", self.gender)
 
-#This Class Child inherite from the Parent Class User
+#This Class Child inherite from the Parent Class User (SuperClass)
 class Bank(User):
     def __init__(self, name, age, gender):
         super().__init__(name, age, gender)
