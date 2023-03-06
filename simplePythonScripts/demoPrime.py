@@ -11,9 +11,8 @@ def timer(func):
 
     return  wrapper
 
-#decorator
+#Decorate the functipn to check prime number
 @timer
-#function to check for prime number
 def prime():
     #take input from user for the checking
     num = int(input("Enter number: "))
@@ -30,5 +29,4 @@ def prime():
 
     else:
         print("Number is not prime")
-
 prime()
