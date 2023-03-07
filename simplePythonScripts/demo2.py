@@ -10,11 +10,11 @@ x = {'name':'Miano', 'age':25, 'gender':'F', 'Nationality':'Cameroon'}
 
 y = json.dumps(x)
 
-#This method open and authomatically close your file
+#This Method authomatically Opens and Close your file
 with open('demo.jeson', 'w') as fh:
     fh.write(json.dumps(a))
 
-#This method open and you manually have to close your file
+#This Method Manually Opens and Manually Close your file
 fh =open('demo.jeson', 'r')
 print(fh.read())
 fh.close()
