@@ -39,7 +39,7 @@ def checkYear(year):
     if (year % 4 == 0) and (year % 100 != 0) or (year % 400 == 0):
         print(year, ' is a leap year')
     else:
-        print(year, ' is not a leap year')
+        print("{} is a leap year".format(year))
 
 
 def main():
@@ -72,4 +72,4 @@ def main():
     n3 = int(input("Enter Third number: "))
 
     maximum = FindMaximum(n1, n2, n3)
-    print("Maximum number is", maximum)
+    print("Maximum number is %s" %maximum)
