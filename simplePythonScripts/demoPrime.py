@@ -1,5 +1,5 @@
 import time
-#function for timing the execution of another function (function use for decorating other function)
+#Function for timing the execution of another function (function use for decorating other function)
 def timer(func):
     def wrapper():
         before = time.time()
