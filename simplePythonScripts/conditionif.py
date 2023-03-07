@@ -32,7 +32,7 @@ main()
 
 print("======================================================")
 
-#Python Code To Check If The Year Is A Leap Year
+#Python Code To Check If The Year Is A Leap Year or Not
 #The year 2000 was a leap year, for example, but the years 1700, 1800, and 1900 were not
 
 def checkYear(year):
