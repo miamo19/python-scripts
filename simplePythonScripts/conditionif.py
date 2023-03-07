@@ -1,4 +1,4 @@
-print("Grade List")
+print("List of Grades")
 print("======================================================")
 #You have to take the marks of the student as input from the user.
 # Then assign the grades based on marks obtained by the students.
@@ -6,10 +6,14 @@ print("======================================================")
 def gradeAssign(marks):
     assert marks >= 0 and marks <= 100
 
-    if marks >= 90:
+    if marks >= 80:
         grade = "A"
     elif marks >= 70:
-        grade = "B"
+        grade = "B+"
+    elif marks >= 60:
+        grade = "B"  
+    elif marks >= 55:
+        grade = "C+"
     elif marks >= 50:
         grade = "C"
     elif marks >= 40:
