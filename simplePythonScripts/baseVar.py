@@ -1,24 +1,24 @@
 #variables                      dataType
 
-x = 15                         #interger type
+integer_x = 15                         #interger type
 
-y = 5.3                        #float type
-z = 3.0
+float_y = 5.3                        #float type
+float_z = 3.0
 
 first_name = "Miami"           #string type
 second_name = "yve chalton"
 last_name = "HYACINTH"
 
-#converting a float y to interger and storing its value in another variable i
-i = int(y)
+#converting a float (float_y)  to interger and storing its value in another variable i
+i = int(float_y)
 print(i)      
 
-#converting an interger x to a float and storing its value in another variable j
-j = float(x)
-print(j)     
+#converting an interger integer_x to a float and storing its value in another variable f
+f = float(integer_x)
+print(f)     
 
-#multiplication of variable x and y and print the result
-print("{0} * {1} = {2}".format(x,y,x*y))
+#multiplication of variable integer_x and float_y and print the result
+print("{0} * {1} = {2}".format(integer_x,float_y, integer_x*float_y))
 
 #capitilize the content of the variable second_name
 print(second_name.capitalize())
