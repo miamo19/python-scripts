@@ -24,9 +24,8 @@ def prime():
                 print("Number is not prime")
                 break
         else:
-            print("Number is Prime")
-
+            print("Number is Prime number")
 
     else:
-        print("Number is not prime")
+        print("Number is not prime number")
 prime()
