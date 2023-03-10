@@ -1,4 +1,4 @@
-#A simple class that check for passed and failed
+#A simple class that check for passed and failed mark
 class Student:
     def check_if_pass(self, mark):
         self.mark= mark
@@ -10,7 +10,7 @@ class Student:
 student1 = Student()
 
 student1.check_if_pass(16) 
-if student1.mark >=45:
+if student1.mark >=50:
     print ("You pass")
 else:
     print("You Fail")
