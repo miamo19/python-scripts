@@ -19,12 +19,12 @@ class Student:
         def all(self):
             print(self.brand, self.cpu, self.ram)
 
-        #create an object (c1) of the inner class inside the inner class
+    #create an object (c1) of the inner class inside the main class Student
     c1 = Computer()
     print(c1.ram)
     print(c1.all())
 
-#create an object (c0) of the inner class outside the inner class
+#create an object (c0) of the inner class outside the main class Student
 c0 = Student.Computer()
 print(c0.cpu)
 print(c0.all())
