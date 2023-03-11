@@ -1,3 +1,4 @@
+#A class with a method before the __init__ method
 class Student():
     def check_if_pass(self):
         if self.mark >45:
