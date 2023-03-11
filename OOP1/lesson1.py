@@ -1,4 +1,4 @@
-        #concept of innerclass
+#concept of innerclass
 class Student:
     def __init__(self, name, rollno):
         self.name = name
@@ -9,7 +9,7 @@ class Student:
         print(self.name, self.rollno)
         self.lap.all
 
-        #inner class
+    #inner class
     class Computer:
         def __init__(self):
             self.brand = 'hp'
@@ -24,12 +24,12 @@ class Student:
     print(c1.ram)
     print(c1.all())
 
-  #create an object (c0) of the inner class outside the inner class
+#create an object (c0) of the inner class outside the inner class
 c0 = Student.Computer()
 print(c0.cpu)
 print(c0.all())
 
-  #object of the outer class
+#object of the outer class
 s0= Student("nadia", 25)
 s1 = Student("Lauence", 28)
 print(s0.all())
