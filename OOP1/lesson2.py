@@ -9,5 +9,6 @@ class Hello:
     def get_name(self):
         return self.__name
 
+#Create an object of the class Hello
 hello = Hello('niano', 'fff')
 print(hello.get_name)
