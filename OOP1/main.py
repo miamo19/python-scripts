@@ -8,8 +8,8 @@ class Student():
 
     def __init__(self, name):
         self.name = name
+        
 #s1 = Student(input("Enter your name: "))
-
 while 1:
     s1 = Student(input("Enter your name: "))
     s1.mark = float(input("Enter your total mark: "))
