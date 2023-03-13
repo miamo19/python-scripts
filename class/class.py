@@ -10,6 +10,7 @@ class Rectangle:
 rect1 = Rectangle(20, 12)
 rect2 = Rectangle(12, 9)
 
+#Two Method to print the area of the rectangle
 print(rect1.height*rect1.width)
 print(rect2.rect_area)
 
