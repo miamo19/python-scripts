@@ -1,4 +1,4 @@
-#Arg and Kwarg one can take a list and the other can take a dictionary
+#Arg and Kwarg one takes a list and the other takes a dictionary
 class Market:
     def __init__(self, *arg, **arg1):
         print(arg)
