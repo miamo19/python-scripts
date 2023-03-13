@@ -1,4 +1,4 @@
-   #program adding three complex number,
+#Program adding three complex number,
 class Complex:
     def __init__(self, real, img):             #argument real and imaginary part of the complex number is declared
         self.real = real
@@ -11,7 +11,7 @@ class Complex:
         return result
 
 
-            #Instance Object
+        #Instance Object
 n1 = Complex(2, 5)
 n2 = Complex(3,7)
 n3 = Complex(-4,-3)
