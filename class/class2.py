@@ -1,6 +1,8 @@
+#Arg and Kwarg one can take a list and the other can take a dictionary
 class Market:
     def __init__(self, *arg, **arg1):
         print(arg)
+        print(arg1)
         for k, v in arg1.items():
             print(k, ': ', v)
 
