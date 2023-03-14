@@ -1,4 +1,5 @@
 class Parrot:
+    #A Class Variable
     species = 'Bird'
     def __init__(self, name, age):
         self.name= name
