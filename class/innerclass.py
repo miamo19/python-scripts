@@ -18,6 +18,9 @@ class Student:
 
         def show(self):
             print(self.brand, self.cpu, self.ram)
+            
+        #If you will need to use somewhere in you project the method show() only for the inner class, then you can create an instance here
+        com = Computer()
 
 
 s1 = Student('miami',27)
@@ -28,3 +31,6 @@ print(s2.show())
 
 print(s1.name)
 print(s1.rollno)
+
+#if you need to use the show() method just for the inner class
+s1.com.show()
