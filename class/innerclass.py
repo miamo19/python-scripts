@@ -1,3 +1,4 @@
+#Inner Class example
 class Student:
     def __init__(self, name, rollno):
         self.name = name
@@ -7,7 +8,8 @@ class Student:
     def show(self):
         print(self.name , self.rollno)
         self.lap.show()
-
+   
+    #inner class
     class Computer:
         def __init__(self):
             self.brand = 'PH'
