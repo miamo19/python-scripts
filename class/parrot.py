@@ -10,3 +10,5 @@ woo = Parrot('riptite',18)
 
 print('blu is of the species {}'.format(blu.__class__.species))
 print('blu is of the species', blu.__class__.species)
+
+print('this species of birds called {} is of {} age'. format(blu.name, blu.age))
