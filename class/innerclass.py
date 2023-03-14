@@ -25,3 +25,6 @@ s2 = Student('nadia', 22)
 
 print(s1.show())
 print(s2.show())
+
+print(s1.name)
+print(s1.rollno)
