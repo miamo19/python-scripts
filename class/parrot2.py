@@ -19,5 +19,6 @@ blu = Parrot('pigeon',17)
 print(blu.sing("'Happiiii'"))
 print(blu.dance())
 
-# Call our instance variable (attribute)
+# Call our instance variable (attributes)
 print(blu.name)
+print(blu.age)
