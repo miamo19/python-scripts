@@ -1,5 +1,5 @@
 class Parrot:
-    # instance attributes
+    # Declaration of instance attributes
     def __init__(self, name, age):
         self.name = name
         self.age =age
@@ -12,9 +12,12 @@ class Parrot:
         return "{} is dancing".format(self.name)
 
 
-  # instantiate the object
+# instantiate the object
 blu = Parrot('pigeon',17)
 
 # call our instance methods
 print(blu.sing("'Happiiii'"))
 print(blu.dance())
+
+# Call our instance variable (attribute)
+print(blu.name)
