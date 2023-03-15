@@ -8,6 +8,9 @@ class Triangle():
         sum = self.side1 + self.side2 + self.side3   
         return sum
     
+    def perimeter(self):
+        pass
+    
     
 triangle1 = Triangle(2, 3, 5)
 print(triangle1.add())
