@@ -1,4 +1,4 @@
- #the base class
+#The base class
 class Polygon:
     def __init__(self, no_of_sides):
         self.num_side = no_of_sides
@@ -11,7 +11,7 @@ class Polygon:
         for i in range(self.num_side):
             print("Side", i + 1, "is", self.sides[i])
 
-# the inherited class
+# The inherited class
 class Triangle(Polygon):
     def __init__(self):
         Polygon.__init__(self, 3)
