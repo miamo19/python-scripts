@@ -1,3 +1,4 @@
+#The class Triangle with different method of calculating area and perimeter
 class Triangle():
     def __init__(self, first_side, second_side, third_side):
         self.side1 = first_side
