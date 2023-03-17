@@ -18,3 +18,5 @@ class Triangle():
     
 triangle1 = Triangle(2, 3, 5)
 print(triangle1.perimeter())
+
+print(triangle1.area())
