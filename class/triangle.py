@@ -5,13 +5,16 @@ class Triangle():
         self.side2 = second_side
         self.side3 = third_side
         
-    def add(self):
+    def perimeter(self):
         sum = self.side1 + self.side2 + self.side3   
         return sum
     
-    def perimeter(self):
-        pass
+    def area(self):
+        base = self.side1
+        height = self.side2
+        area = (base*height)*0.5
+        return area
     
     
 triangle1 = Triangle(2, 3, 5)
-print(triangle1.add())
+print(triangle1.perimeter())
