@@ -19,7 +19,9 @@ print("------------------------")
 
 @decorator
 def f2(x,y):
-    print("the sum of: ", x , " and ", y ," = ", x+y)
+    print("The sum of: ", x , " and ", y ," = ", x+y)
+#   print("The sum of: {} and {} is = {}".fomat(x,y,x+y))
+#   print("The sum of: %d and %d is = %s" %(x,y,x+y))
 
 f2(2, 8)
 
