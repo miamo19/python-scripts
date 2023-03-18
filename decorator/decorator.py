@@ -9,6 +9,7 @@ def decorator(func):
 
     return wrapper
 
+
 @decorator
 def f1(a):
     print(a,"Is Better")
