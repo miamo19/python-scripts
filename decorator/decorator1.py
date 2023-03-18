@@ -12,7 +12,7 @@ def div(numb1, numb2):
     print(numb1/numb2)
 div(2,4)
 
-print("---------------")
+print("---------------------------")
 #second example for decorator
 def f(func):
     def wrapper():
@@ -26,7 +26,7 @@ def f1():
     print("Hello World")
 f1()
 
-print("---------------------")
+print("------------------------")
 
 @f
 def f2():
