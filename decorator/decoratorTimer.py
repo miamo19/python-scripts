@@ -1,6 +1,5 @@
 import datetime
 
-
 def log(func):
     def wrapper(*args, **kwargs):
         with open("log.txt", "a") as f:
@@ -10,7 +9,7 @@ def log(func):
     return wrapper
 
 @log
-def run(a, b, c):
-    print(a + b + c)
+def run(num1, num2, num3):
+    print(num1 + num2 + num3)
 
 run(1, 3, c=9)
