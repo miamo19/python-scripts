@@ -13,10 +13,10 @@ def decorator(func):
 @decorator
 def f1(a):
     print(a,"Is Better")
-    print("+++A decorated function ++++")
+    print("+++A decorated function +++++")
 f1('hibrahim')
 
-print("------------------------")
+print("-------------------------------------")
 
 @decorator
 def f2(x,y):
@@ -26,7 +26,7 @@ def f2(x,y):
 
 f2(2, 8)
 
-print("------------------------")
+print("-----------------------------------")
 
 @decorator
 def add(x, y):
