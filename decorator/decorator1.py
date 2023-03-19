@@ -14,14 +14,14 @@ div(2,4)
 
 print("---------------------------")
 #second example for decorator
-def f(func):
+def func1(func):
     def wrapper():
         print("Started!")
         func()
         print("Stopped")
     return wrapper
 
-@f
+@func1
 def f1():
     print("Hello World")
 f1()
