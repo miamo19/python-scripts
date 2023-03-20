@@ -6,8 +6,9 @@ def smart_div(func):
     return inner
 
 @smart_div
-def div(x, y):
-    print(x/y)
+def div(num1, num2):
+    print(num1/num2)
+    print(num1*num2)
 
 div(14,3)
 
