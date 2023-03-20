@@ -1,5 +1,6 @@
 import datetime
 
+@Decorator time
 def log(func):
     def wrapper(*args, **kwargs):
         with open("log.txt", "a") as f:
