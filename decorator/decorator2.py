@@ -1,8 +1,8 @@
 def smart_div(func):
-    def inner(a, b):
-        if a<b:
-            a,b = b,a
-        return func(a,b)
+    def inner(value1, value2):
+        if value < value2:
+            value1, value2= value2, value1
+        return func(value1, value2)
     return inner
 
 @smart_div
