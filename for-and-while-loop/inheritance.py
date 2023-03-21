@@ -29,6 +29,9 @@ class Fruit(Apple, Bitter):
 
     def features4(self):
         print("this feature3 is working")
-i=Fruit()
-print(i)
-print(i.features2())
+fruit1=Fruit()
+print(fruit1)
+
+print(fruit1.features2())
+
+print(fruit1.features0())
