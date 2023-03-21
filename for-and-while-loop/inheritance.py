@@ -1,3 +1,4 @@
+#Scripts demonstrating Multiple Inheritance
 class Apple:
     def __init__(self):
         print("All is fine Apple")
@@ -16,7 +17,7 @@ class Bitter:
     def features3(self):
         print("this feature3 is working")
 
-#Multiple inheritance
+#Multiple Inheritance
 class Fruit(Apple, Bitter):
     def __init__(self):
         super().__init__()
