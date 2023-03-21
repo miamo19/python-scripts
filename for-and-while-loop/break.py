@@ -1,4 +1,4 @@
-#break keyword goes with while loop
+#Break keyword goes with while loop
 i=0
 while i<10:
     if i==5:
@@ -8,8 +8,7 @@ while i<10:
     
 print("-------------@-----------------")
 
-#continue keyword also goes with while loop
-
+#Continue keyword also goes with while loop
 n=0
 while n<10:
     a =n
