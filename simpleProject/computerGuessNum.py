@@ -1,4 +1,4 @@
-#computer will guess from a random values provider the user know the correct number
+#computer will guess from a random values provider the user know the correct numbers
 #For this we have to import a module "random" first
 
 import random
