@@ -1,4 +1,5 @@
-#open a file in the write mode
+#Open a file in the write mode
+
 file = open("demo2.txt", 'w')
 try:
     for i in range(5):
