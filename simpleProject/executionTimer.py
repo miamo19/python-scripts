@@ -1,4 +1,6 @@
+# import the time module in python
 import time
+
 
 def timer(func):
     def wrapper():
