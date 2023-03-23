@@ -1,5 +1,4 @@
 #Open a file in the write mode
-
 file = open("demo2.txt", 'w')
 try:
     for i in range(5):
@@ -11,7 +10,7 @@ file1 = open('demo2.txt', 'r')
 print(file1.read())
 file1.close()
 
-# Another way
+# Another concise way to handle error is as seen below
 try:
     with open("demo2.txt", "r") as f:
         print(f.read())
