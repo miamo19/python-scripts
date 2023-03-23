@@ -11,6 +11,14 @@ file1 = open('demo2.txt', 'r')
 print(file1.read())
 file1.close()
 
+# Another way
+try:
+    with open("demo2.txt", "r") as f:
+        print(f.read())
+except FileNotFoundError:
+    print("le fichier est introuvable")
+    
+
 #The above code for opening a file can be writen as below👇👇👇
 """
 with open("demo2.txt", "w") as file:
