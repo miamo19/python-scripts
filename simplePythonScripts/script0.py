@@ -1,4 +1,4 @@
-#Finding the max Number among 3 sets of numbers
+#Finding the max Number among 3 set of numbers
 numb1 = float(input("Enter first Number: "))
 numb2 = float(input("Enter second Number: "))
 numb3 = float(input("Enter third Number: "))
