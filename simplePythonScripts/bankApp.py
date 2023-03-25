@@ -1,6 +1,6 @@
 # The Parent Class (SuperClass)
 class User:
-    def __init__(self, name, age, gender):   #contructor
+    def __init__(self, name, age, gender):   #special method (contructor)
         self.name = name
         self.age = age
         self.gender = gender
