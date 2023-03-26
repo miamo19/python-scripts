@@ -1,12 +1,12 @@
-#variables                      dataType
+#variables                           dataType
 
-integer_x = 15                         #interger type
+integer_x = 15                       #interger type
 
 float_y = 5.3                        #float type
 float_z = 3.0
 
-first_name = "Miami"           #string type
-second_name = "yve chalton"
+first_name = "Miami"                 #string type
+second_name = "yve chalton" 
 last_name = "HYACINTH"
 
 #converting a float (float_y)  to interger and storing its value in another variable i
