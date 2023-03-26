@@ -70,3 +70,19 @@ class Utilisateurs:
         self.full_name = f"{self.first_name} {self.last_name}"
 patrick3 = Utilisateurs("patrick", "smith")
 print(patrick3.full_name)
+
+
+#Create sort of method in the dataclass
+@dataclass
+class Utilisateurs:
+    num:ClassVar[int] = 2
+    first_name: str
+    last_name: str
+        
+    def __post_init__(self):
+        self.full_name = f"{self.first_name} {self.last_name}"
+    
+    def check_name(self):
+        if self.first_name == self.last_name:
+            print("The name shouldn't be the same")
+        return f"{self.first_name} {self.last_name}"
